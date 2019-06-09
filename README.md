@@ -3,23 +3,33 @@ Device repository for Meizu M3s Mini (CyanogenMod)
 
 Fork of https://github.com/Jakesoso/android_device_oppo_A37/tree/cm12.1
 
-Targets is: home wakeup, camera video fix, long home menu
-
 Install
 -----------
-Clone https://github.com/washinson/android_device_meizu_m3_m3s-common/tree/cm12.1 into device/meizu/m3_m3s-common
 
+1. Clone https://github.com/washinson/android_device_meizu_m3_m3s-common/tree/cm12.1 into **device/meizu/m3_m3s-common**
+
+2. Apply patches
+
+```
+cd device/meizu/m3_m3s-common/patches
+bash apply-patch.sh
+``` 
+
+3. Compile
+
+```
 . build/envsetup.sh
 lunch cm_m3s-userdebug
 mka bacon
+```
 
-Changelog:
-v0.4
-Dualsim support
-Added media codecs
+# Changelog:
+## v0.6
+- Home wakeup
+- Long home menu
 
-v0.3
-Ril fixed (Only 1 sim, 2 sim will added in next release)
+## v0.5
+- Camera Fix
 
-v0.2
-Full rebase device tree
+## v0.2
+- Full rebase device tree

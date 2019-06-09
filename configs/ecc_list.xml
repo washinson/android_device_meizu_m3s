@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2015 Meizu Telecom Equipment Co., Ltd.
+ * All rights reserved.
+ *
+ * Filename      : ecc_list_intl.xml
+ * Versin Number : 2.0
+ * Description   : Ecc List for international
+ * Auther        : lixuan@meizu.com
+ * Date          : 2015-11-11
+ * History       : (ID,     Date,       Author,     Description)
+ */
+-->
+<EccTable>
+    <!--
+        The attribute definition for tag EccEntry:
+        - Ecc: the emergnecy number
+        - Category: the service category
+        - Condition: there are following values:
+            - 0: ecc only when no sim
+            - 1: ecc always
+            - 2: MMI will show ecc but send to nw as normal call
+    -->
+    <!--China-->
+    <EccEntry Ecc="110" Category="0" Condition="2" CountryISO="460"/>
+    <EccEntry Ecc="119" Category="0" Condition="2" CountryISO="460"/>
+    <EccEntry Ecc="120" Category="0" Condition="2" CountryISO="460"/>
+    <EccEntry Ecc="122" Category="0" Condition="2" CountryISO="460"/>
+    <EccEntry Ecc="112" Category="0" Condition="1" CountryISO="460"/>
+    <EccEntry Ecc="911" Category="0" Condition="1" CountryISO="460"/>
+    <EccEntry Ecc="000" Category="0" Condition="1" CountryISO="460"/>
+    <EccEntry Ecc="08" Category="0" Condition="1" CountryISO="460"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" CountryISO="460"/>
+    <EccEntry Ecc="999" Category="0" Condition="1" CountryISO="460"/>
+    <!--Hong Kong-->
+    <EccEntry Ecc="999" Category="0" Condition="2" CountryISO="454"/>
+    <!--Macao-->
+    <EccEntry Ecc="999" Category="0" Condition="2" CountryISO="455"/>
+    <!--Taiwan-->
+    <EccEntry Ecc="110" Category="0" Condition="2" CountryISO="466"/>
+    <EccEntry Ecc="119" Category="0" Condition="2" CountryISO="466"/>
+    <!--Philippines-->
+    <EccEntry Ecc="117" Category="0" Condition="2" CountryISO="515"/>
+    <!--Thailand-->
+    <EccEntry Ecc="191" Category="0" Condition="2" CountryISO="520"/>
+    <EccEntry Ecc="199" Category="0" Condition="2" CountryISO="520"/>
+    <!--Myanmar-->
+    <EccEntry Ecc="191" Category="0" Condition="2" CountryISO="414"/>
+    <EccEntry Ecc="192" Category="0" Condition="2" CountryISO="414"/>
+    <!--Vietnam-->
+    <EccEntry Ecc="113" Category="0" Condition="2" CountryISO="452"/>
+    <EccEntry Ecc="114" Category="0" Condition="2" CountryISO="452"/>
+    <EccEntry Ecc="115" Category="0" Condition="2" CountryISO="452"/>
+    <!--Brunei-->
+    <EccEntry Ecc="991" Category="0" Condition="2" CountryISO="528"/>
+    <EccEntry Ecc="993" Category="0" Condition="2" CountryISO="528"/>
+    <EccEntry Ecc="995" Category="0" Condition="2" CountryISO="528"/>
+    <EccEntry Ecc="998" Category="0" Condition="2" CountryISO="528"/>
+    <!--Malaysia-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="502"/>
+    <!--Indonesia-->
+    <EccEntry Ecc="110" Category="0" Condition="2" CountryISO="510"/>
+    <EccEntry Ecc="118" Category="0" Condition="2" CountryISO="510"/>
+    <EccEntry Ecc="113" Category="0" Condition="2" CountryISO="510"/>
+    <!--India-->
+    <EccEntry Ecc="100" Category="0" Condition="2" CountryISO="404"/>
+    <EccEntry Ecc="101" Category="0" Condition="2" CountryISO="404"/>
+    <EccEntry Ecc="102" Category="0" Condition="2" CountryISO="404"/>
+    <!--Israel-->
+    <EccEntry Ecc="100" Category="0" Condition="2" CountryISO="425"/>
+    <EccEntry Ecc="911" Category="0" Condition="2" CountryISO="425"/>
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="425"/>
+    <!--Kazakhstan-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="401"/>
+
+    <!--Latvia-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="247"/>
+    <!--Lithuania-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="246"/>
+    <!--Russia-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="250"/>
+    <!--Ukraine-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="255"/>
+    <!--Poland-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="260"/>
+    <!--Czech Republic-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="230"/>
+    <!--Slovakia-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="231"/>
+    <!--Hungary-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="216"/>
+    <!--Germany-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="262"/>
+    <!--Netherlands-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="204"/>
+    <!--France-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="208"/>
+    <!--Romania-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="226"/>
+    <!--Bulgaria-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="284"/>
+    <!--Serbia and Montenegro-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="220"/>
+    <!--Greece-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="202"/>
+    <!--Slovenia-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="293"/>
+    <!--Croatia-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="219"/>
+    <EccEntry Ecc="92" Category="0" Condition="2" CountryISO="219"/>
+    <EccEntry Ecc="93" Category="0" Condition="2" CountryISO="219"/>
+    <EccEntry Ecc="94" Category="0" Condition="2" CountryISO="219"/>
+    <!--Italy-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="222"/>
+    <EccEntry Ecc="113" Category="0" Condition="2" CountryISO="222"/>
+    <EccEntry Ecc="115" Category="0" Condition="2" CountryISO="222"/>
+    <EccEntry Ecc="118" Category="0" Condition="2" CountryISO="222"/>
+    <!--Spain-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="214"/>
+    <EccEntry Ecc="061" Category="0" Condition="2" CountryISO="214"/>
+    <EccEntry Ecc="091" Category="0" Condition="2" CountryISO="214"/>
+    <EccEntry Ecc="062" Category="0" Condition="2" CountryISO="214"/>
+    <EccEntry Ecc="080" Category="0" Condition="2" CountryISO="214"/>
+    <EccEntry Ecc="085" Category="0" Condition="2" CountryISO="214"/>
+    <EccEntry Ecc="092" Category="0" Condition="2" CountryISO="214"/>
+    <!--Portugal-->
+    <EccEntry Ecc="112" Category="0" Condition="2" CountryISO="268"/>
+
+    <!--Brazil-->
+    <EccEntry Ecc="190" Category="0" Condition="2" CountryISO="724"/>
+    <EccEntry Ecc="192" Category="0" Condition="2" CountryISO="724"/>
+    <EccEntry Ecc="193" Category="0" Condition="2" CountryISO="724"/>
+</EccTable>

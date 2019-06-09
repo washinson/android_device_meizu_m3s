@@ -16,3 +16,5 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 # BT A2DP
 PRODUCT_COPY_FILES += \
     vendor/meizu/m3s/proprietary/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.mt6750.so
+
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
