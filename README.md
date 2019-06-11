@@ -24,6 +24,10 @@ mka bacon
 ```
 
 # Changelog:
+## v0.7
+- Ril fix
+- Bug fixing
+
 ## v0.6
 - Home wakeup
 - Long home menu

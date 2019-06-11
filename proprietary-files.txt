@@ -626,8 +626,7 @@ lib64/libstagefright_omx.so
 lib64/libstagefright_soft_ffmpegadec.so
 lib64/libstagefright_soft_ffmpegvdec.so
 
-# test
-bin/gxFpDaemon
+# mddb
 etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P58_2016_08_11_00_44_1_ulwctg_n
 etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P67_2016_12_02_17_56_1_ulwctg_n
 etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_17_16_05_1_ulwctg_n
@@ -645,4 +644,17 @@ etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P67_1_ulwctg_n.EDB
 etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB
 etc/mddb/mdm_layout_desc_1_ulwctg_n.dat
 
-
+# 3 test
+bin/volte_ua
+bin/volte_stack
+bin/volte_imcb
+bin/viarild
+lib/libviatelecom-withuim-ril.so
+etc/ppp/init.pppoe-pppd
+etc/ppp/ip-up-cdma
+etc/ppp/ip-up-pppoe
+etc/ppp/ip-up-vpn
+etc/ppp/ipv6-up-cdma
+etc/ppp/link-down-cdma
+bin/thermalloadalgod
+bin/gxFpDaemon
