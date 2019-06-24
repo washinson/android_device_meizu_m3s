@@ -1,7 +1,5 @@
 # android_device_meizu_m3s
-Device repository for Meizu M3s Mini (CyanogenMod)
-
-Fork of https://github.com/Jakesoso/android_device_oppo_A37/tree/cm12.1
+Device repository for Meizu M3s (CyanogenMod)
 
 Install
 -----------
@@ -34,6 +32,13 @@ mka bacon
 
 ## v0.5
 - Camera Fix
+
+## v0.4
+- Dualsim support
+- Added media codecs
+
+## v0.3
+- Ril fixed (Only 1 sim, 2 sim will added in next release)
 
 ## v0.2
 - Full rebase device tree
