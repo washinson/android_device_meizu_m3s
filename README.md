@@ -10,7 +10,7 @@ Install
 
 ```
 cd device/meizu/m3_m3s-common/patches
-bash apply-patch.sh
+bash apply.sh
 ``` 
 
 3. Compile

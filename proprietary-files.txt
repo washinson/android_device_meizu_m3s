@@ -658,3 +658,6 @@ etc/ppp/ipv6-up-cdma
 etc/ppp/link-down-cdma
 bin/thermalloadalgod
 bin/gxFpDaemon
+
+# 4 test
+lib64/librpcril.so
