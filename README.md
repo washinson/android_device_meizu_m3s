@@ -22,6 +22,16 @@ mka bacon
 ```
 
 # Changelog:
+## v0.8.3
+Many changes
+- USB
+- charge only
+- MTP default
+- A2DP fix
+- Tethering fix
+- VPN fix
+- etc
+
 ## v0.7
 - Ril fix
 - Bug fixing
